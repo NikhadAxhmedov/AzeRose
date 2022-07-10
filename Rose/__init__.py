@@ -20,7 +20,7 @@ MOD_NOLOAD = []
 bot_start_time = time.time()
 DB_URI = BASE_DB 
 MONGO_URL = MONGO_URL
-OWNER_ID = 5415216768
+OWNER_ID = 5488666943
 
 
 myclient = pymongo.MongoClient(DB_URI)
