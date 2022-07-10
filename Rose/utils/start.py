@@ -30,11 +30,11 @@ async def get_learn(_, m: Message, help_option: str):
 məndən istifadə etməyin başqa yolu daxili sorğunu özünüz yazmaqdır
  format bu tənzimləmədə olmalıdır
 
-`@EnergySecurityBot your whisper @username`
+`@LacosteSecurityRobot your whisper @username`
 
 indi formatı 3 hissəyə bölüb hər bir hissəsini izah edəcəyəm
 
-1- `@EnergySecurityBot`
+1- `@LacosteSecurityRobot`
 bu mənim istifadəçi adımdır, daxili sorğunun əvvəlində olmalıdır, ona görə də biləcəyəm ki, başqa botdan deyil, məndən istifadə edirsiniz.
 
 2- `gizli mesak`
@@ -44,7 +44,7 @@ it is the whisper that will be sent to the target user, you need to remove your 
 you should replace this with target's username so the bot will know that the user with this username can see your whisper message.
 
 example:- 
-`@EnergySecurityBot hello this is a test @vusallldi`
+`@LacosteSecurityRobot hello this is a test @Axhmedov`
 
 📎 bot qruplarda işləyir və hədəf istifadəçi sizinlə eyni qrupda olmalıdır
  nəyi gözləyirsən?!
