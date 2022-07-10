@@ -69,7 +69,7 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deploy Olundu              |  
-|         (C) 2021-2022 by @EnergyBotlarım        | 
+|         (C) 2021-2022 by @LacosteProject        | 
 |          Bəxdəvər  :)           |
 |_____________________________________________|  
                                                                                                
@@ -107,11 +107,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="🚀 Mənim Blogum",
-                url=f"https://t.me/VusalinBlogu",
+                url=f"https://t.me/Axhmedovs",
             ),
             InlineKeyboardButton(
                 text="🔰Rəsmi Kanal",
-                url=f"https://t.me/energybots",
+                url=f"https://t.me/LacosteProject",
             )
         ],
     ]
@@ -186,11 +186,11 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋🏻]({random.choice(IMG)}) Salam.⚡ {message.from_user.mention}, 
 
-   Mənim Adım Enerji Security Bot ⚡, Bütün Qrup Kanalları Qorumaq Üçün Kodlaşdırılmış Botam. 
-Qrupa Əlavə Edərək Kef Edin! `{len(served_chats)}` Bot'u 0 Dan Yazıb Proglamlaşdıran 🧑🏻‍💻 @Vusallldi Øwner 🧑🏻‍💻 @MR_KABUS_133  `{len(served_users)}` 
+   Mənim Adım Lacoste Security Bot ⚡, Bütün Qrup Kanalları Qorumaq Üçün Kodlaşdırılmış Botam. 
+Qrupa Əlavə Edərək Kef Edin! `{len(served_chats)}` Bot'u 0 Dan Yazıb Proglamlaşdıran 🧑🏻‍💻 @Axhmedov Øwner 🧑🏻‍💻 @quliyevv_17  `{len(served_users)}` 
 
 ⚒ Mənə /help yazaraq komandoları, əldə edə bilərsən. 
-👨🏻‍💻 Proglamlaşdıran : @Vusaliw
+👨🏻‍💻 Proglamlaşdıran : @Axhmedov
 """,
             reply_markup=home_keyboard_pm,
         )
@@ -277,12 +277,12 @@ async def startcq(client,CallbackQuery, _):
             text=f"""
 👋🏻 Salam.⚡ {CallbackQuery.from_user.mention}, 
 
-   Mənim Adım Energy Security.⚡, Mən Qrup Kanalları Qorumaq Üçün Kodlaşdırlmış Botam
-Bot Python & Telethon İlə @Vusaliw Tərəfindən Hazırlanmışdır. 
-Hmm :)) `{len(served_chats)}` @EnergyBotlar `{len(served_users)}` users
+   Mənim Adım Lacoste Security.⚡, Mən Qrup Kanalları Qorumaq Üçün Kodlaşdırlmış Botam
+Bot Python & Telethon İlə @Axhmedov Tərəfindən Hazırlanmışdır. 
+Hmm :)) `{len(served_chats)}` @LacosteProject `{len(served_users)}` users
 
  ⚒ Mənə /help yazaraq komandoları, əldə edə bilərsən 
-👨🏻‍💻 Programlaşdıran : @vusaliw
+👨🏻‍💻 Programlaşdıran : @Axhmedov
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -339,7 +339,7 @@ async def help_button(client, query, _):
                 "Repo Yoxduuu))", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n🧑🏻‍💻 Proglamlaşdıran : @vusaliw"
+            + "\n🧑🏻‍💻 Proglamlaşdıran : @Axhmedov"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
