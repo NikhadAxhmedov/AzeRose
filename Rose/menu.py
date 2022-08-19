@@ -8,23 +8,23 @@ fbuttons = InlineKeyboardMarkup(
         [
         [
             InlineKeyboardButton(
-                text=" 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝘾𝙝𝙖𝙩 🐆 🇦🇿", url="https://t.me/sohbetpremium
+                text="ᴅᴀɪ̇ɴᴛʏ ᴄʜᴀᴛ 🐆🇦🇿", url="https://t.me/DaintyChat
             ),
-                text="🌴 Kanal", url="https://t.me/Axhmedovs"
+                text="🌴 Kanal", url="https://t.me/DaintyResmi"
             InlineKeyboardButton(
             )
         ], 
         [
             InlineKeyboardButton(
-                text="⚒ Köməkçi", url="https://t.me/Nixhad7"
+                text="⚒ Köməkçi", url="https://t.me/DaintyOwner"
             ),
             InlineKeyboardButton(
-                text="🇦🇿 Chat", url="https://t.me/https://t.me/sohbetpremium"
+                text="🇦🇿 Chat", url="https://t.me/https://t.me/DaintyChat"
             )
         ], 
         [
             InlineKeyboardButton(
-                text="🖥 Developer", url="https://t.me/Axhmedov"
+                text="🖥 Developer", url="https://t.me/Nixhadx"
             )
         ], 
         [
