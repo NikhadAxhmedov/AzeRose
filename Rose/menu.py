@@ -8,7 +8,7 @@ fbuttons = InlineKeyboardMarkup(
         [
         [
             InlineKeyboardButton(
-                text="𝕯𝖆𝖎𝖓𝖙𝖞 𝕮𝖍𝖆𝖙 🐆🇦🇿", url="https://t.me/DaintyChat
+                text="Dainty Chat", url="https://t.me/DaintyChat
             ),
                 text="🌴 Rəsmi", url="https://t.me/DaintyResmi"
             InlineKeyboardButton(
