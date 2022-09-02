@@ -12,7 +12,7 @@ from config import *
 import pymongo
 
 
-SUPPORT_GROUP = "https://t.me/LacosteSup"
+SUPPORT_GROUP = "https://t.me/DaintyChat"
 SUDOERS = SUDO_USERS_ID
 LOG_GROUP_ID = LOG_GROUP_ID
 MOD_LOAD = []
@@ -20,7 +20,7 @@ MOD_NOLOAD = []
 bot_start_time = time.time()
 DB_URI = BASE_DB 
 MONGO_URL = MONGO_URL
-OWNER_ID = 5488666943
+OWNER_ID = 5341703813
 
 
 myclient = pymongo.MongoClient(DB_URI)
