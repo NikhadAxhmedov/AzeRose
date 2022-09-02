@@ -69,7 +69,7 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deploy Olundu              |  
-|         (C) 2021-2022 by @LacosteProject        | 
+|         (C) 2021-2022 by @DaintyChat        | 
 |          Bəxdəvər  :)           |
 |_____________________________________________|  
                                                                                                
@@ -107,11 +107,11 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="🚀 Mənim Blogum",
-                url=f"https://t.me/Axhmedovs",
+                url=f"https://t.me/Nixhadx1",
             ),
             InlineKeyboardButton(
                 text="🔰Rəsmi Kanal",
-                url=f"https://t.me/LacosteProject",
+                url=f"https://t.me/DaintyResmi",
             )
         ],
     ]
@@ -186,7 +186,7 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋🏻]({random.choice(IMG)}) Salam.⚡ {message.from_user.mention}, 
 
-   Mənim Adım Lacoste Security Bot ⚡, Bütün Qrup Kanalları Qorumaq Üçün Kodlaşdırılmış Botam. 
+   Salam Mənim adım 𝕯𝖆𝖎𝖓𝖙𝖞 𝕾𝖊𝖈𝖚𝖗𝖎𝖙𝖞 ⚡, Bütün Qrup Kanalları Qorumaq Üçün Kodlaşdırılmış Botam. 
 Qrupa Əlavə Edərək Kef Edin! `{len(served_chats)}` Bot'u 0 Dan Yazıb Proglamlaşdıran 🧑🏻‍💻 @Axhmedov Øwner 🧑🏻‍💻 @quliyevv_17  `{len(served_users)}` 
 
 ⚒ Mənə /help yazaraq komandoları, əldə edə bilərsən. 
@@ -278,11 +278,11 @@ async def startcq(client,CallbackQuery, _):
 👋🏻 Salam.⚡ {CallbackQuery.from_user.mention}, 
 
    Mənim Adım Lacoste Security.⚡, Mən Qrup Kanalları Qorumaq Üçün Kodlaşdırlmış Botam
-Bot Python & Telethon İlə @Axhmedov Tərəfindən Hazırlanmışdır. 
-Hmm :)) `{len(served_chats)}` @LacosteProject `{len(served_users)}` users
+Bot Python & Telethon İlə @Nixhad Tərəfindən Hazırlanmışdır. 
+Hmm :)) `{len(served_chats)}` @DaintyResmi `{len(served_users)}` users
 
  ⚒ Mənə /help yazaraq komandoları, əldə edə bilərsən 
-👨🏻‍💻 Programlaşdıran : @Axhmedov
+👨🏻‍💻 Programlaşdıran : @Nixhadx
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -297,7 +297,7 @@ async def help_parser(name, keyboard=None):
 Mən bəzi faydalı xüsusiyyətləri olan qrup idarəetmə botuyam.
 Düyməni klikləməklə aşağıdakı variantı seçə bilərsiniz.
 Məndən necə istifadə edəcəyinizlə bağlı hər hansı bir səhviniz və ya sualınız varsa, 
-@VendettaChatAz Gələrək Bildirə Bilərsiniz.
+@DaintyChat Gələrək Bildirə Bilərsiniz.
 **Bütün əmrlər aşağıdakılarla istifadə edilə bilər: / **""",
         keyboard,
     )
@@ -339,7 +339,7 @@ async def help_button(client, query, _):
                 "Repo Yoxduuu))", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n🧑🏻‍💻 Proglamlaşdıran : @Axhmedov"
+            + "\n🧑🏻‍💻 Proglamlaşdıran : @Nixhadx"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
